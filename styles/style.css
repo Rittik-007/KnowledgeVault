@@ -80,6 +80,7 @@ nav .menu ul li a:hover{
     margin-bottom: 32px;
 }
 .change-color{
+    font-size: 65px;
     color: #24854d;
 }
 .hero-button2{
@@ -122,9 +123,12 @@ nav .menu ul li a:hover{
     gap: 24px;
 }
 .idea-card{
-    border-radius: 4px;
-    box-shadow: 0 0 8px #00000023;
-    padding: 55px 24px 24px;
+    background-color: white;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border: 1px solid #6a666635;
+    border-bottom: none;
+    padding: 55px 24px 0;
 }
 .idea-card img{
     background-color: #F95555;
@@ -142,5 +146,42 @@ nav .menu ul li a:hover{
 .idea-card p{
     font-size: 14px;
     color: #627382;
-    margin-bottom: 14px;
+}
+
+.second-brain-section{
+    padding: 120px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.second-brain-content h5{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.second-brain-content h2{
+    font-size: 45px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.second-brain-content p{
+    font-size: 14px;
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.second-brain-content ul li{
+    list-style-type: none;
+    font-size: 13px;
+    color: #001931;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+.second-brain-content ul li i{
+    color: #30B868;
 }
