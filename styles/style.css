@@ -18,7 +18,7 @@ header{
     background-color: #30B868;
     color: #FFFFFF;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     padding: 12px 16px;
     outline: none;
     border: none;
@@ -184,4 +184,26 @@ nav .menu ul li a:hover{
 }
 .second-brain-content ul li i{
     color: #30B868;
+}
+
+.early-access-section{
+    padding: 0 120px 120px;
+}
+.early-access-container{
+    background-color: #F7F6F2;
+    text-align: center;
+    padding: 80px 40px;
+    border-radius: 4px;
+}
+.early-access-container h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+}
+.early-access-container p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+    margin-bottom: 24px;
 }
