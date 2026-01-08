@@ -70,6 +70,7 @@ nav .menu ul li a:hover{
     border-radius: 100px;
 }
 .hero h1{
+    text-transform: capitalize;
     font-size: 63px;
     color: #FFFFFF;
     margin: 16px 0;
@@ -80,7 +81,6 @@ nav .menu ul li a:hover{
     margin-bottom: 32px;
 }
 .change-color{
-    font-size: 65px;
     color: #24854d;
 }
 .hero-button2{
@@ -107,6 +107,7 @@ nav .menu ul li a:hover{
     background-color: #fbfbfb;
 }
 .idea-title h2{
+    text-transform: capitalize;
     font-size: 44px;
     font-weight: bold;
     margin-bottom: 15px;
@@ -124,8 +125,8 @@ nav .menu ul li a:hover{
 }
 .idea-card{
     background-color: white;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
     border: 1px solid #6a666635;
     border-bottom: none;
     padding: 55px 24px 0;
@@ -164,6 +165,7 @@ nav .menu ul li a:hover{
     margin-bottom: 16px;
 }
 .second-brain-content h2{
+    text-transform: capitalize;
     font-size: 45px;
     font-weight: bold;
     color: #001931;
@@ -193,9 +195,10 @@ nav .menu ul li a:hover{
     background-color: #F7F6F2;
     text-align: center;
     padding: 80px 40px;
-    border-radius: 4px;
+    border-radius: 12px;
 }
 .early-access-container h2{
+    text-transform: capitalize;
     font-size: 40px;
     font-weight: bold;
     color: #001931;
@@ -206,4 +209,40 @@ nav .menu ul li a:hover{
     color: #627382;
     margin-top: 16px;
     margin-bottom: 24px;
+}
+
+.footer-section{
+    padding: 120px 120px 30px;
+    background-color: #001931;
+    color: #FFFFFF;
+}
+
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    margin-bottom: 50px;
+}
+.footer-box .social p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.footer-box .social a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-right: 13px;
+}
+
+.footer-section hr{
+    border: none;
+    border-top: 2px solid #042748;
+    margin-bottom: 30px;
+}
+
+.copyright p{
+    text-align: center;
+    font-size: 13px;
+    color: #FAFAFA;
 }
