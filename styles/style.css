@@ -99,3 +99,48 @@ nav .menu ul li a:hover{
     background-color: #FFFFFF;
     color: #30B868;
 }
+
+.idea-section{
+    padding-top: 80px;
+    text-align: center;
+    background-color: #fbfbfb;
+}
+.idea-title h2{
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.idea-title p{
+    font-size: 13px;
+    color: #746b6b;
+    margin-bottom: 40px;
+}
+
+.idea-box{
+    padding: 0 120px;
+    display: flex;
+    gap: 24px;
+}
+.idea-card{
+    border-radius: 4px;
+    box-shadow: 0 0 8px #00000023;
+    padding: 55px 24px 24px;
+}
+.idea-card img{
+    background-color: #F95555;
+    width: 45px;
+    padding: 10px;
+    border-radius: 100px;
+    margin-bottom: 14px;
+}
+.idea-card h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 14px;
+}
+.idea-card p{
+    font-size: 14px;
+    color: #627382;
+    margin-bottom: 14px;
+}
