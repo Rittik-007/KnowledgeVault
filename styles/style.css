@@ -256,6 +256,21 @@ nav .menu ul li a:hover{
     .menu{
         display: none;
     }
+    .hero{
+        padding: 120px 20px;
+    }
+    .hero-second-paragraph{
+        font-size: 10px;
+        margin-bottom: 50px;
+    }
+    .hero-buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hero-button2{
+        margin-left: 0;
+    }
 
 
     .idea-box{
