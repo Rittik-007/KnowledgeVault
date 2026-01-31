@@ -121,6 +121,7 @@ nav .menu ul li a:hover{
 .idea-box{
     padding: 0 120px;
     display: flex;
+    justify-content: center;
     gap: 24px;
 }
 .idea-card{
@@ -153,6 +154,7 @@ nav .menu ul li a:hover{
     padding: 120px;
     display: flex;
     gap: 60px;
+    justify-content: center;
     align-items: center;
 }
 
@@ -313,6 +315,46 @@ nav .menu ul li a:hover{
     .footer-box{
         padding-right: 0;
         margin-bottom: 20px;
+    }
+    .footer-section hr{
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    nav{
+        padding: 20px;
+    }
+
+    .idea-box{
+        padding: 0 50px 80px;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+    .idea-card{
+        width: 48%;
+        border-radius: 8px;
+        padding: 35px 25px;
+        border: 3px solid #6a666635;
+    }
+
+    .second-brain-section{
+        flex-direction: column;
+        padding: 80px 30px;
+    }
+    .second-brain-content p{
+        margin-bottom: 20px;
+    }
+    .second-brain-content ul{
+        padding-left: 15px;
+    }
+
+    .early-access-section{
+        padding: 20px 40px 100px;
+    }
+
+    .footer-section{
+        padding: 100px 30px;
     }
     .footer-section hr{
         margin-bottom: 15px;
