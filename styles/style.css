@@ -246,3 +246,25 @@ nav .menu ul li a:hover{
     font-size: 13px;
     color: #FAFAFA;
 }
+
+
+
+@media screen and (max-width: 576px) {
+    nav{
+        padding: 14px;
+    }
+    .menu{
+        display: none;
+    }
+
+
+    .idea-box{
+        padding: 0 50px 80px;
+        flex-wrap: wrap;
+    }
+    .idea-card{
+        border-radius: 8px;
+        padding: 35px 25px;
+        border: 3px solid #6a666635;
+    }
+}
