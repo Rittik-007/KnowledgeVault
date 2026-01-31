@@ -272,10 +272,10 @@ nav .menu ul li a:hover{
         margin-left: 0;
     }
 
-
     .idea-box{
         padding: 0 50px 80px;
         flex-wrap: wrap;
+        gap: 12px;
     }
     .idea-card{
         border-radius: 8px;
@@ -295,5 +295,26 @@ nav .menu ul li a:hover{
     }
     .second-brain-content ul{
         padding-left: 15px;
+    }
+
+    .early-access-section{
+        padding: 20px 20px 100px;
+    }
+    .early-access-container{
+        padding: 50px 30px 40px;
+    }
+    .early-access-container p{
+        font-size: 12px;
+    }
+
+    .footer-section{
+        padding: 100px 20px;
+    }
+    .footer-box{
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+    .footer-section hr{
+        margin-bottom: 15px;
     }
 }
